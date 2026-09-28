@@ -1,0 +1,148 @@
+# ATIVIDADE INDIVIDUAL — ANÁLISE DE REPOSITÓRIOS NO GITHUB
+
+Disciplina: Coding — I Unidade
+
+Nome do(a) estudante: Saymon thiago Sales da cruz  
+Turma: 2 A  
+Data: 27/09/2026
+
+**ORIENTAÇÕES**
+
+Esta atividade deverá ser realizada individualmente. O estudante deverá analisar três repositórios públicos diferentes no GitHub e preencher todos os campos indicados abaixo.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  
+**REPOSITÓRIO 1**  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. Identificação do repositório  
+Nome do repositório: Visual Studio Code (`microsoft/vscode`)
+
+Link do repositório: https://github.com/microsoft/vscode
+
+2. Finalidade do projeto  
+O projeto desenvolve o código aberto do Visual Studio Code, um editor de código que oferece recursos de edição, navegação, depuração e extensões para diferentes ferramentas e linguagens. O repositório também é usado pela Microsoft e pela comunidade para desenvolver o produto.
+
+3. Proprietário do repositório  
+Microsoft, uma empresa. O README informa que a Microsoft desenvolve o projeto junto com a comunidade.
+
+4. Linguagem predominante  
+TypeScript, conforme indicado entre os tópicos do repositório no GitHub.
+
+5. Histórico de commits  
+A página principal exibe **166.298 commits** na branch `main` no momento da consulta. A contagem pode mudar conforme novos commits são adicionados. Fonte: https://github.com/microsoft/vscode
+
+6. Colaboradores ou contribuidores  
+O GitHub não mostrou um número total de contribuidores na página consultada. Entre os contribuidores visíveis no histórico estão Tyler Leonhardt, Megan Rogge e Vritant Bhardwaj. A lista de contribuidores do GitHub pode ser consultada em https://github.com/microsoft/vscode/graphs/contributors
+
+7. Arquivo README  
+Sim. O README apresenta o projeto e orienta usuários e pessoas interessadas em contribuir. Duas informações relevantes são: o código está disponível sob licença MIT e o VS Code reúne recursos para edição, navegação, depuração e extensões. Fonte: https://github.com/microsoft/vscode#readme
+
+8. Issues  
+Existem Issues abertas no repositório.
+
+a) Título da Issue: [Integrated browser: window.open opens a detached window that cannot communicate with its opener](https://github.com/microsoft/vscode/issues/336231)
+
+b) Problema, erro, dúvida ou solicitação apresentada: A Issue relata que páginas abertas com `window.open()` no navegador integrado não conseguem se comunicar com a página que as abriu por meio de `window.opener` ou `postMessage()`.
+
+c) Com suas próprias palavras, o que está sendo discutido: A Issue descreve uma limitação do navegador integrado do VS Code. Quando uma página abre uma janela auxiliar, como uma apresentação com uma tela de notas, essa janela fica separada e a troca de mensagens com a página original não funciona como esperado.
+
+9. Análise de um commit  
+a) Mensagem do commit: “agentHost: capitalize Agent in SDK download progress (#335912)”
+
+b) Autor: Tyler Leonhardt e Copilot, conforme a página de histórico de commits.
+
+c) Data: 12 de setembro de 2026.
+
+d) O que aparentemente foi alterado nesse commit, com base nas informações exibidas pelo GitHub: Pelo título, o commit ajustou a capitalização da palavra “Agent” na mensagem de progresso de download do SDK no Agent Host. [Commit](https://github.com/microsoft/vscode/commit/36e1938)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  
+**REPOSITÓRIO 2**  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. Identificação do repositório  
+Nome do repositório: FastAPI (`fastapi/fastapi`)
+
+Link do repositório: https://github.com/fastapi/fastapi
+
+2. Finalidade do projeto  
+FastAPI é uma estrutura de desenvolvimento para criar APIs com Python. O README destaca que o projeto usa as anotações de tipo padrão do Python e oferece suporte a padrões abertos como OpenAPI e JSON Schema.
+
+3. Proprietário do repositório  
+A organização `fastapi` no GitHub. O README também identifica Tiangolo como mantenedor e autor de algumas informações do projeto.
+
+4. Linguagem predominante  
+Python.
+
+5. Histórico de commits  
+A página principal exibe **7.715 commits** na branch `master` no momento da consulta. A contagem pode mudar conforme novos commits são adicionados. Fonte: https://github.com/fastapi/fastapi
+
+6. Colaboradores ou contribuidores  
+O GitHub não mostrou um número total de contribuidores na página consultada. Entre os contribuidores visíveis no histórico estão Tiangolo e Yurii Motov. A lista de contribuidores pode ser consultada em https://github.com/fastapi/fastapi/graphs/contributors
+
+7. Arquivo README  
+Sim. O README apresenta o framework, seus recursos e links para documentação e código-fonte. Duas informações relevantes são: o FastAPI serve para construir APIs com Python e anotações de tipo; e é compatível com os padrões OpenAPI e JSON Schema. Fonte: https://github.com/fastapi/fastapi#readme
+
+8. Issues  
+Há uma Issue aberta no repositório, identificada pelo GitHub como um roadmap do projeto.
+
+a) Título da Issue: [🚀 Roadmap](https://github.com/fastapi/fastapi/issues/10370)
+
+b) Problema, erro, dúvida ou solicitação apresentada: A Issue apresenta um roteiro provisório com ideias e objetivos para o desenvolvimento do FastAPI.
+
+c) Com suas próprias palavras, o que está sendo discutido: O mantenedor explica que o roteiro pode mudar com o tempo e que o trabalho no FastAPI acontece junto com a manutenção de outros projetos e o atendimento à comunidade. Portanto, trata-se de planejamento do projeto, não de um relato específico de erro.
+
+9. Análise de um commit  
+a) Mensagem do commit: “Bump starlette from 1.3.1 to 1.6.0 (#16289)”
+
+b) Autor: `dependabot[bot]` e Yurii Motov, conforme a página de histórico de commits.
+
+c) Data: 1º de setembro de 2026.
+
+d) O que aparentemente foi alterado nesse commit, com base nas informações exibidas pelo GitHub: O commit atualizou a dependência Starlette da versão 1.3.1 para a 1.6.0. [Commit](https://github.com/fastapi/fastapi/commit/fcf472e)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  
+**REPOSITÓRIO 3**  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. Identificação do repositório  
+Nome do repositório: Redis (`redis/redis`)
+
+Link do repositório: https://github.com/redis/redis
+
+2. Finalidade do projeto  
+Redis é um servidor de estruturas de dados usado, entre outras finalidades, como cache e mecanismo de consulta de documentos e vetores. O README também oferece instruções para começar a usar o projeto e compilá-lo a partir do código-fonte.
+
+3. Proprietário do repositório  
+A organização `redis` no GitHub.
+
+4. Linguagem predominante  
+C, indicada como a principal linguagem do projeto na página de linguagens do GitHub: https://github.com/redis/redis
+
+5. Histórico de commits  
+A página principal exibe **13.308 commits** na branch `unstable` no momento da consulta. A contagem pode mudar conforme novos commits são adicionados. Fonte: https://github.com/redis/redis
+
+6. Colaboradores ou contribuidores  
+O GitHub não mostrou um número total de contribuidores na página consultada. Entre os contribuidores visíveis no histórico estão DevJunz, tezc e kachkin43. A lista de contribuidores pode ser consultada em https://github.com/redis/redis/graphs/contributors
+
+7. Arquivo README  
+Sim. O README serve como guia de início rápido e como referência para compilar o Redis a partir do código-fonte. Duas informações relevantes são: o projeto pode ser usado em aplicações de dados em tempo real, inclusive como cache; e o README reúne instruções de compilação e links para a documentação. Fonte: https://github.com/redis/redis#readme
+
+8. Issues  
+Existem Issues abertas no repositório.
+
+a) Título da Issue: [[QUESTION] Redis crashes with the following error on multiple nodes. What could be the reason?](https://github.com/redis/redis/issues/11314)
+
+b) Problema, erro, dúvida ou solicitação apresentada: A pessoa relata mensagens repetidas de “Broken pipe” nos logs de vários nós Redis e pergunta qual pode ser a causa.
+
+c) Com suas próprias palavras, o que está sendo discutido: A Issue apresenta uma dúvida de operação: o Redis estaria registrando falhas ao aceitar conexões, e a pessoa quer entender se isso explica as quedas relatadas. A página indica que a Issue está aberta.
+
+9. Análise de um commit  
+a) Mensagem do commit: “Fix overflowing relative TTL in RESTORE (#15756)”
+
+b) Autor: DevJunz.
+
+c) Data: 8 de setembro de 2026.
+
+d) O que aparentemente foi alterado nesse commit, com base nas informações exibidas pelo GitHub: O commit corrige um possível estouro numérico ao calcular o tempo de expiração relativo no comando `RESTORE`. A página mostra alterações em `src/cluster.c` e testes em `tests/unit/dump.tcl`, incluindo uma verificação de erro antes de modificar a chave. [Commit](https://github.com/redis/redis/commit/48cc562)
+
+**Verificação final:** os três repositórios são diferentes, públicos e têm README, Issues abertas e histórico de commits. Os nove itens foram preenchidos para cada repositório.
