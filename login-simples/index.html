@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Entrar | Meu site</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="login-card">
+    <div class="brand-mark" aria-hidden="true">M</div>
+    <p class="eyebrow">BEM-VINDO DE VOLTA</p>
+    <h1>Entrar na sua conta</h1>
+    <p class="subtitle">Informe seus dados para continuar.</p>
+    <form id="login-form">
+      <label for="email">E-mail</label>
+      <input id="email" name="email" type="email" placeholder="voce@exemplo.com" autocomplete="username" required>
+      <label for="password">Senha</label>
+      <input id="password" name="password" type="password" placeholder="Digite sua senha" autocomplete="current-password" required minlength="6">
+      <div class="form-options">
+        <label class="remember"><input type="checkbox" name="remember"> <span>Manter conectado</span></label>
+        <a href="#" id="forgot-link">Esqueceu a senha?</a>
+      </div>
+      <button type="submit">Entrar</button>
+      <p id="message" class="message" role="status" aria-live="polite"></p>
+    </form>
+    <p class="signup">Ainda não tem conta? <a href="#" id="signup-link">Criar conta</a></p>
+  </main>
+</body>
+</html>
